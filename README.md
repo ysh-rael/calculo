@@ -29,7 +29,7 @@ Precisando zerar tudo? Chame a função "_zerar_" sem precisar nunhum parâmetro
 
     zerar()
 
-[IMAGEM--comandos.png]
+![comandos](https://user-images.githubusercontent.com/79410863/183802961-aacde96a-ae7a-4188-a85f-d32b954a0124.png)
 
 ---
 
@@ -70,4 +70,5 @@ ___
 Deixarei aqui listado os bugs que forem sendo encontrado para caso você se sentir motivado a ajudar, poder colaborar com esse projeto.
 * divisão([0,0,(Número !== 0)]) == NAN (RESOLVIDO)
 * fatoração: recebe valor vazio de outras operações (RESOLVIDO)
-<footer style="text-align: center;">Feito por Ysh-rael com <em>mó</em> carinho para você!</footer>
+
+<center>Feito por Ysh-rael com <em>mó</em> carinho para você!</center>
