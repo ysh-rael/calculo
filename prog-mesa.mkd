@@ -1,0 +1,36 @@
+# =================<> Planejamento Calculadora <>=================
+* Toda vez que apertar no botão de um operador, alterar valor da variável 'operador'.
+* Quando apertar botão "=" ou referente a um operador direfente do atual, disparar função com switch contendo todas as operações e escolhe qual será executada.
+* Guardar resultado em uma variável para as próximas operações
+* Printar na tela o resultado.
+* Botão de zerar tudo.
+
+## ------------------  mecânica da calculadora  ------------------
+### operações simples
+
+#### Quando digitado um valor no input 
+* Será digitado o valor do inpt.
+* Quando selecionado um operador 
+    1. Dispara função que verifica se o operador escolhido é o mesmo do atual e altera valor da variável 'operador' caso necessário.
+    2. dar 'push' no valor atual do input para o array 'vInpt'
+    3. zera valor atual do input
+
+#### Se o operador escolhido for o mesmo do atual:
+*    [2,3]
+
+#### Se o operador escolhido for diferente do atual:
+4. Executa a operação, envia o resultado para a variável 'operacaoAnterior' e [3]
+#### Quando selecionado 'resultado' ou tecla "Enter"
+*   [4]
+
+---
+### Operações especiais
+### Fórmula de baskara
+* Selecionar valor de "a", "b" e "c".
+* Ao precionar tecla "Enter"
+    * ler valor das variáveis.
+    6. Executa função e [3].
+___
+# bugs encontrados:
+* divisão([0,0,(Número !== 0)]) == NAN (RESOLVIDO)
+* fatoração: recebe valor vazio de outras operações (RESOLVIDO)
