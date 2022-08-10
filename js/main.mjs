@@ -69,3 +69,12 @@ print(iniciar(operador))
 operador = 'fatorar' // fatora o resultado da operação anterior
 
 print(iniciar(operador))
+
+/* 
+[Running] node "calculo/js/main.mjs"
+200
+50
+3.0414093201713376e+64
+
+[Done] exited with code=0 in 0.057 seconds
+ */
