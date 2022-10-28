@@ -1,12 +1,12 @@
 <h1 style="color: #06080a; background-image: linear-gradient(to right, white,#2c4a66); padding-top: 20px; margin-top:0;">Cálculo</h1>
 
-**Cálculo** é um código desenvolvido em JS para a realização de cálculos matemáticos, incluindo as quatro operações fundamentais, fatoração, báskara entre outras que serão implementadas posteriomente.
+**Cálculo** é um código desenvolvido em JS para a realização de cálculos matemáticos, incluindo as quatro operações fundamentais, fatoração e báskara.
 
 **Somente a parte lógica:** Cálculo se limita a parte lógica não possuindo um desing ou front para visualização com exessão da função de teste. O objetivo é torna-lo solto para ser facilmente implementado nos mais diversos projetos, sejam para criação de calculadora para aqueles que se dedicam a parte visual e precisam da lógica pronta com fácil manuseio ou para otimizar e reciclar código. 
 
 ---
 ## Como Usar
-Em modo geral, tem duas variáveis terem seu valor alterado. São elas:
+Em modo geral, há duas variáveis a terem seu valor alterado. São elas:
 1.      let operador = '' // string
     * Responsável por escolher a operação a ser executada. 
     * Recebe como valor uma string em lowCase(tudo em minúsculo) contendo a operação desejada. Exemplo:
